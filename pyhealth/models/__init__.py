@@ -6,6 +6,7 @@ from .apn import (
     TimeAwarePatchAggregation as TimeAwarePatchAggregation,
     masked_mse as masked_mse,
 )
+from .sensor_lstm import SensorLSTM
 from .base_model import BaseModel
 from .transformer_deid import TransformerDeID
 from .biot import BIOT
